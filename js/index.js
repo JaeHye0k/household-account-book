@@ -6,9 +6,8 @@ import { initAddItem } from "./components/add-item";
 init();
 
 function init() {
-  initStore();
-
-  initCurrentAsset();
-  initAddItem();
-  initHistoryList();
+    initStore();
+    initCurrentAsset();
+    initAddItem();
+    initHistoryList();
 }
